@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+
+	
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-shadow: 10px 10px 0 #e06161  ;
+	color: white;
+	font-size: 80px;
+	margin-bottom: 27px;
+
+}
+.knopka{
+	font-size: 25px;
+	background: white;
+	border-radius: 35px;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	box-shadow: 10px 10px 0 #e06161;
+	position: relative;
+	left: -27px;
+}
+.conteiner{
+	max-width: 1000px;
+	margin: 0px auto;
+	padding: 107px 0;
+
+
+
+
+}
+
+.section-title{
+	font-size: 50px;
+	text-align: center;
+	margin: 0 0 25px;
+
+}
+
+.section-text{
+
+}
+.menu{
+	float: right;
+
+
+}
+.salki{
+		color: whitesmoke;
+		text-decoration: none;
+	line-height: 43px;
+	margin-right: 7px;
+}
+.polnostu{
+	background: black;
+	position: fixed;
+	width: 100vw;
+	z-index: 100;
+
+}
+.salki:hover{
+	color: palegoldenrod;
+	font-size: 18px;
+}
+.vce{
+
+	height: 100vh;
+	background: linear-gradient(#DB7E7E , #FFC997
+);
+
+}
+.chast{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text{
+	font-size: 20px;
+
+}
+.Chto_we_delaem{
+	background: linear-gradient(7deg,#DB7E7E , #FFC997 70%, white 70%);
+}
+.left{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.right{
+	width: 45%;
+	display: inline-block;
+	height: 100%;
+}
+.right img{
+		height: 100%;
+		margin: 40px;
+}
+.dlabakgrounda{
+	background-color: white;
+	border-radius: 11px;
+	padding: 17px;
+	box-shadow:10px 10px 0 #e06161 ;
+}
+.kartochki{
+	background: linear-gradient(170deg,#DB7E7E 50% , #FFFF 50%);
+
+
+}
+.kart{
+	display: inline-block;
+	width: 30%;
+	background: white;
+	border: 3px solid #FFC997;
+	vertical-align: top ;
+	height: 320px;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px;
+}
+hr{
+	background-color: lightcoral;
+	height: 3px;
+	width: 90%;
+	margin: 10px auto;
+
+
+}
+.pochemy_we_are_good{
+
+}
+.Bce_Ot_pochemy_we_are_good{
+	border-radius: 25px ;
+	border: solid 5px #FFC997;
+	width: 701px;
+	margin: 19px;
+	padding: 19px;
+}
+.oTodBiHyt{
+	position: relative;
+	left: 100px;
+}
+.Hashi_paboTi{
+
+}
+.portfolio{
+	height: 300px;
+	border-radius: 20px;
+	border: 7px solid #DB7E7E ;
+}
+.Hapishiti_Ham{
+	background: linear-gradient(#FFC997,#DB7E7E );
+
+}
+.mecto{
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+@media(max-width: 768px){
+	.salki{
+		display: block;
+		font-size: 12px;
+	}
+	.polnostu{
+		width: 100vw
+	}
+	.left,.right{
+		display: 	block;
+		width: 	100%
+	}
+	.right img{
+		width: 100%;
+		margin: 10px 0 ;
+
+	}
+	.kart{
+		width: 100%;
+		display: block;
+	}
+	.Bce_Ot_pochemy_we_are_good{
+		width: 100%;
+		left: 0;
+	}
+	.portfolio{
+		width: 100%
+
+	}
+	.conteiner{
+		width: 90%
+	}
+}
